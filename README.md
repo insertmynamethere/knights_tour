@@ -5,7 +5,7 @@ The knights tour problem is a famous puzzle. Given 1 knight on a chess board, st
 
 A knight can move in 8 possible directions. My solution takes those 8 directions and gives them a random order. Given any order of these 8 possible moves, the knight will move to the first availible direction following the order. If the order does not result in a successful solution (the knight does not move to all 64 spaces), then the order is randomized again and the process repeats until a solution is found.
 
-For example:
+For example:<br/>
 | |5| |2| |<br/>
 |7| | | |1|<br/>
 | | |K| | |<br/>
