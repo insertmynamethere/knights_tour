@@ -6,11 +6,11 @@ The knights tour problem is a famous puzzle. Given 1 knight on a chess board, st
 A knight can move in 8 possible directions. My solution takes those 8 directions and gives them a random order. Given any order of these 8 possible moves, the knight will move to the first availible direction following the order. If the order does not result in a successful solution (the knight does not move to all 64 spaces), then the order is randomized again and the process repeats until a solution is found.
 
 For example:
-| |5| |2| |
-|7| | | |1|
-| | |K| | |
-|6| | | |3|
-| |8| |4| |
+| |5| |2| |<br/>
+|7| | | |1|<br/>
+| | |K| | |<br/>
+|6| | | |3|<br/>
+| |8| |4| |<br/>
 
 This grid repsents the possible directions a knight can move in. The numbers represent the priority of that direction. 1 being the highest, 8 being the lowest. If the direction at priority 1 is availible (meaning it hasn't been crossed yet) the knight will go in that direction. should the direction at 1 being unavaible (meaning it has been crossed previously) the knight will resort to direction 2. Should 2 be unavailible, then direction 3 and so on and so forth. 
 
