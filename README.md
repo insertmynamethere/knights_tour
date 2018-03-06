@@ -19,5 +19,5 @@ I have tested this method with all 64 starting positions and there is a possible
 This leads me to believe that the knight's tour problem has a simple solution. Just assignment a priority for each direction the knight can move in. Then move the knight in the highest, possible priority. Go down the prioirty levels until you find a possible move to make. Should you run out of places to go and have not reached a solution, change the order of the moves and retry again.
 
 
-run with<br/>
+run with:<br/>
 java Lab16ast
